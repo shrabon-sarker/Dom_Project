@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dom</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="min-head">
+      <div class="container">
+        <div class="all-body">
+          <form action="#">
+            <div class="header-area">
+              <img
+                src="https://logodownload.org/wp-content/uploads/2019/07/mini-logo.png"
+                alt="logo image"
+              />
+              <h2 id="header-title" class="header-title">To-do app project</h2>
+              <div class="srarch-section">
+                <label for="text-id">add new Task</label>
+                <input type="text" id="new-tasks" />
+                <input type="submit" value="add task" />
+              </div>
+            </div>
+            <div class="medial">
+              <div class="incomplete">
+                <h2>Incomplete task</h2>
+                <ul id="items">
+                  <li class="item">
+                    <input type="checkbox" />
+                    <label for="">Task Name</label>
+                    <button class="update">Update</button>
+                  </li>
+                  <li class="item">
+                    <input type="checkbox" />
+                    <label for="">Task Name</label>
+                    <button class="update">Update</button>
+                  </li>
+                  <li class="item">
+                    <input type="checkbox" id="input_Id" />
+                    <label for="">Task Name</label>
+                    <button class="update">Update</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="completed">
+                <h2>completed tasks</h2>
+                <ul>
+                  <li class="item">
+                    <label for="">Tasks Name</label>
+                    <button class="delete">Delete</button>
+                  </li>
+                  <li class="item">
+                    <label for="id-form">Tasks Name</label>
+                    <button class="delete">delete</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="newpractice.js"></script>
+  </body>
+</html>
